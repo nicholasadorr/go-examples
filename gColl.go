@@ -35,3 +35,6 @@ func main()  {
   }
   printStats(mem)
 }
+
+// Run this to detailed results:
+// GODEBUG=gctrace=1 go run gColl.go
