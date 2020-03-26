@@ -27,13 +27,17 @@ func main() {
     k++
   }
 
+  min, max := n, n
+
   for i := 2; i < len(arguments); i++ {
     n, err := strconv.ParseFloat(arguments[i], 64)
-    if n < min {
+    if err == nil{
+      if n < min {
       min = n
-    }
-    if n > max {
+      }
+      if n > max {
       max = n
+      }
     }
   }
 

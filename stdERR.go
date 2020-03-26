@@ -8,7 +8,7 @@ import (
 func main()  {
   myString := ""
   arguments := os.Args
-  if len(arguments) == 1{
+  if len(arguments) == 1 {
     myString = "Please give me one argument!"
   } else {
     myString = arguments[1]
@@ -18,3 +18,10 @@ func main()  {
   io.WriteString(os.Stderr, myString)
   io.WriteString(os.Stderr, "\n")
 }
+
+// Example run with output to file name output
+// go run stdERR.go testing >output 2>&1
+
+
+// This is Standard output
+// testing

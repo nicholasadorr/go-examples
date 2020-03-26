@@ -13,6 +13,6 @@ func main() {
 
   scanner := bufio.NewScanner(f)
   for scanner.Scan() {
-    fmt.Println(">", scanner.Text())
+    fmt.Println("input =", scanner.Text())
   }
 }

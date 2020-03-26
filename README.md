@@ -2,6 +2,6 @@
 
 <br><br><br><br><br>
 
-### Acknowledgments :thumbsup:
+### Acknowledgments
 
 * _Mastering Go_ by Mihalis Tsoukalos
